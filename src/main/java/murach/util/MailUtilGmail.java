@@ -6,7 +6,7 @@ import javax.mail.internet.*;
 
 public class MailUtilGmail {
 
-    private static final String USERNAME     = System.getenv("GMAIL_USERNAME");
+    private static final String USERNAME = System.getenv("GMAIL_USERNAME");
     private static final String APP_PASSWORD = System.getenv("GMAIL_APP_PASSWORD");
 
     public static void sendMail(String to, String from,
@@ -27,6 +27,7 @@ public class MailUtilGmail {
                 return new PasswordAuthentication(USERNAME, APP_PASSWORD);
             }
         });
+        session.setDebug(true);
 
         Message message = new MimeMessage(session);
         message.setSubject(subject);
