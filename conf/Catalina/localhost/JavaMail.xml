@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/Users/Khanh/OneDrive/Máy tính/Nam3-HK1/Lap trinh web/d9-proj/JavaMail/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/Khanh/OneDrive/Máy tính/Nam3-HK1/Lap trinh web/d9-proj/JavaMail/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.persistence-api-2.2.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/org/eclipse/persistence/eclipselink/2.7.12/eclipselink-2.7.12.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/eclipselink-2.7.12.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.persistence-2.2.3.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commonj.sdo-2.1.1.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.4.0.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.25.1.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.mail-1.6.2.jar"/>
+    <PostResources base="C:/Users/Khanh/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/activation-1.1.jar"/>
+  </Resources>
+</Context>

@@ -1,0 +1,307 @@
+28-Sep-2026 10:08:41.152 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: 1111111@a.com
+FROM: email_list@murach.com
+SUBJECT: Welcome to our email list
+
+Dear Joel,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:08:55.052 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: auquockhanh02112006@gmail.com
+FROM: email_list@murach.com
+SUBJECT: Welcome to our email list
+
+Dear Âu,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:11:50.344 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: aidolakhanh@gmail.com
+FROM: auquockhanh02112006@gmail.com
+SUBJECT: Welcome to our email list
+
+Dear khanh,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:17:50.203 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: auquockhanh02112006@gmail.com
+FROM: johnsmith@gmail.com
+SUBJECT: Welcome to our email list
+
+Dear Âu,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:29:49.491 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: auquockhanh02112006@gmail.com
+FROM: auquockhanh02112006@gmail.com
+SUBJECT: Welcome to our email list
+
+Dear Âu,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:31:56.109 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: auquockhanh02112006@gmail.com
+FROM: auquockhanh02112006@gmail.com
+SUBJECT: Welcome to our email list
+
+Dear Âu,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:38:05.446 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: auquockhanh02112006@gmail.com
+FROM: auquockhanh02112006@gmail.com
+SUBJECT: Welcome to our email list
+
+Dear Âu,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 10:39:50.248 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log EmailListServlet: Unable to send email. 
+Here is the email you tried to send: 
+=====================================
+TO: auquockhanh02112006@gmail.com
+FROM: auquockhanh02112006@gmail.com
+SUBJECT: Welcome to our email list
+
+Dear Âu,
+
+Thanks for joining our email list. We'll make sure to send you announcements about new products and promotions.
+Have a great day and thanks again!
+
+Kelly Slivkoff
+Mike Murach & Associates
+
+
+28-Sep-2026 11:28:21.358 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [EmailListServlet] in context with path [/JavaMail] threw exception [Servlet execution threw an exception] with root cause
+	java.net.UnknownHostException: No such host is known (mysql-e0e22bb-auquockhanh02112006-29e5.j.aivencloud.com)
+		at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+		at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+		at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1128)
+		at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1697)
+		at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1056)
+		at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1687)
+		at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1568)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:121)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:139)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:980)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:851)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:234)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:613)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:160)
+		at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:100)
+		at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:172)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.setOrDetectDatasource(DatabaseSessionImpl.java:226)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.loginAndDetectDatasource(DatabaseSessionImpl.java:810)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:261)
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:771)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:200)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getDatabaseSession(EntityManagerFactoryImpl.java:542)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:153)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:191)
+		at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+		at murach.data.JPAUtil.<clinit>(JPAUtil.java:27)
+		at murach.data.UserDB.emailExists(UserDB.java:83)
+		at murach.email.EmailListServlet.doPost(EmailListServlet.java:55)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:201)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:57)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:170)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:534)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:129)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:764)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:350)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:409)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1344)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2254)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:976)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:494)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:80)
+		at java.base/java.lang.Thread.run(Thread.java:1447)
+28-Sep-2026 11:28:26.331 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [EmailListServlet] in context with path [/JavaMail] threw exception [Servlet execution threw an exception] with root cause
+	java.lang.ExceptionInInitializerError: Exception javax.persistence.PersistenceException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.12.v20230209-e5c4074ef3): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Error Code: 0 [in thread "http-nio-8080-exec-4"]
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:854)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:200)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getDatabaseSession(EntityManagerFactoryImpl.java:542)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:153)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:191)
+		at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+		at murach.data.JPAUtil.<clinit>(JPAUtil.java:27)
+		at murach.data.UserDB.emailExists(UserDB.java:83)
+		at murach.email.EmailListServlet.doPost(EmailListServlet.java:55)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:201)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:57)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:170)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:534)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:129)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:764)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:350)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:409)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1344)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2254)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:976)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:494)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:80)
+		at java.base/java.lang.Thread.run(Thread.java:1447)
+28-Sep-2026 12:30:11.309 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [EmailListServlet] in context with path [/JavaMail] threw exception [Servlet execution threw an exception] with root cause
+Local Exception Stack: 
+	Exception [EclipseLink-4021] (Eclipse Persistence Services - 2.7.12.v20230209-e5c4074ef3): org.eclipse.persistence.exceptions.DatabaseException
+Exception Description: Unable to acquire a connection from driver [com.mysql.cj.jdbc.Driver], user [null] and URL [].  Verify that you have set the expected driver class and URL.  Check your login, persistence.xml or sessions.xml resource.  The jdbc.driver property should be set to a class that is compatible with your database platform
+		at org.eclipse.persistence.exceptions.DatabaseException.unableToAcquireConnectionFromDriverException(DatabaseException.java:385)
+		at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:93)
+		at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:172)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.setOrDetectDatasource(DatabaseSessionImpl.java:226)
+		at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.loginAndDetectDatasource(DatabaseSessionImpl.java:810)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:261)
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:771)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:200)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getDatabaseSession(EntityManagerFactoryImpl.java:542)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:153)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:191)
+		at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+		at murach.data.JPAUtil.<clinit>(JPAUtil.java:25)
+		at murach.data.UserDB.emailExists(UserDB.java:83)
+		at murach.email.EmailListServlet.doPost(EmailListServlet.java:54)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:201)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:57)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:170)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:534)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:129)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:764)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:350)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:409)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1344)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2254)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:976)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:494)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:80)
+		at java.base/java.lang.Thread.run(Thread.java:1447)
+28-Sep-2026 12:30:45.813 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [EmailListServlet] in context with path [/JavaMail] threw exception [Servlet execution threw an exception] with root cause
+	java.lang.ExceptionInInitializerError: Exception javax.persistence.PersistenceException: Exception [EclipseLink-4021] (Eclipse Persistence Services - 2.7.12.v20230209-e5c4074ef3): org.eclipse.persistence.exceptions.DatabaseException
+Exception Description: Unable to acquire a connection from driver [com.mysql.cj.jdbc.Driver], user [null] and URL [].  Verify that you have set the expected driver class and URL.  Check your login, persistence.xml or sessions.xml resource.  The jdbc.driver property should be set to a class that is compatible with your database platform [in thread "http-nio-8080-exec-4"]
+		at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:854)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:200)
+		at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getDatabaseSession(EntityManagerFactoryImpl.java:542)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:153)
+		at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:191)
+		at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+		at murach.data.JPAUtil.<clinit>(JPAUtil.java:25)
+		at murach.data.UserDB.emailExists(UserDB.java:83)
+		at murach.email.EmailListServlet.doPost(EmailListServlet.java:54)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:201)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:57)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:170)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:146)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:534)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:129)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:764)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:350)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:409)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1344)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2254)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:976)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:494)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:80)
+		at java.base/java.lang.Thread.run(Thread.java:1447)
