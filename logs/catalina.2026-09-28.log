@@ -979,3 +979,52 @@
  java.base/java.lang.Thread.run(Thread.java:1447)
 28-Sep-2026 17:10:18.220 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 28-Sep-2026 17:10:18.231 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Sep-2026 17:48:03.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.121
+28-Sep-2026 17:48:03.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2026 19:38:16 UTC
+28-Sep-2026 17:48:03.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.121.0
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Khanh\.jdks\openjdk-24.0.2+12-54
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.2+12-54
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Khanh\OneDrive\Máy tính\Nam3-HK1\Lap trinh web\d9-proj\JavaMail
+28-Sep-2026 17:48:03.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\TomCat\apache-tomcat-9.0.121\apache-tomcat-9.0.121
+28-Sep-2026 17:48:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Sep-2026 17:48:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\TomCat\apache-tomcat-9.0.121\apache-tomcat-9.0.121
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Khanh\OneDrive\Máy tính\Nam3-HK1\Lap trinh web\d9-proj\JavaMail
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Khanh\OneDrive\Máy tính\Nam3-HK1\Lap trinh web\d9-proj\JavaMail\temp
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Khanh\OneDrive\Máy tính\Nam3-HK1\Lap trinh web\d9-proj\JavaMail\conf\logging.properties
+28-Sep-2026 17:48:03.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2026 17:48:03.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.1\lib\idea_rt.jar=64049
+28-Sep-2026 17:48:03.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+28-Sep-2026 17:48:03.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+28-Sep-2026 17:48:03.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+28-Sep-2026 17:48:03.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Khanh\.jdks\openjdk-24.0.2+12-54\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Khanh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;C:\Program Files\Java\jdk-24\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Cloudflare\Cloudflare WARP\;D:\Nodejs\;D:\Programing\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Khanh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Khanh\AppData\Local\Programs\Python\Python39\;C:\Users\Khanh\AppData\Local\Programs\Python\Launcher\;C:\Users\Khanh\AppData\Local\Microsoft\WindowsApps;C:\Users\Khanh\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Program Files\Java\jdk-24;C:\Users\Khanh\.dotnet\tools;C:\Users\Khanh\AppData\Roaming\npm;D:\Programing\Antigravity IDE\bin;C:\Users\Khanh\AppData\Local\GitHubDesktop\bin;.]
+28-Sep-2026 17:48:03.444 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Sep-2026 17:48:03.461 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [649] milliseconds
+28-Sep-2026 17:48:03.519 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Sep-2026 17:48:03.519 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.121]
+28-Sep-2026 17:48:03.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Khanh\OneDrive\Máy tính\Nam3-HK1\Lap trinh web\d9-proj\JavaMail\conf\Catalina\localhost\JavaMail.xml]
+28-Sep-2026 17:48:06.078 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2026 17:48:06.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Khanh\OneDrive\Máy tính\Nam3-HK1\Lap trinh web\d9-proj\JavaMail\conf\Catalina\localhost\JavaMail.xml] has finished in [2,597] ms
+28-Sep-2026 17:48:06.132 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Sep-2026 17:48:06.153 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2689] milliseconds
+28-Sep-2026 18:01:37.174 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Sep-2026 18:01:37.179 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Sep-2026 18:01:37.186 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [JavaMail] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2026 18:01:37.186 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [JavaMail] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:389)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:124)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:215)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+ java.base/java.lang.Thread.run(Thread.java:1447)
+28-Sep-2026 18:01:37.191 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Sep-2026 18:01:37.193 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
